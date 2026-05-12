@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Sami Portfolio</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial;
+background:black;
+color:white;
+overflow-x:hidden;
+}
+
+.header{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+background:linear-gradient(135deg,#000000,#111827,#1e3a8a);
+}
+
+h1{
+font-size:50px;
+color:cyan;
+text-shadow:0 0 20px cyan;
+margin-bottom:10px;
+}
+
+h2{
+color:#cbd5e1;
+font-weight:normal;
+}
+
+.btn{
+margin-top:30px;
+padding:15px 30px;
+background:cyan;
+color:black;
+text-decoration:none;
+font-weight:bold;
+border-radius:12px;
+transition:0.3s;
+}
+
+.btn:hover{
+transform:scale(1.1);
+}
+
+.section{
+padding:50px 20px;
+text-align:center;
+}
+
+.card{
+background:#111827;
+padding:25px;
+margin:20px auto;
+max-width:400px;
+border-radius:20px;
+box-shadow:0 0 15px rgba(0,255,255,0.3);
+}
+
+.card h3{
+color:cyan;
+}
+
+.footer{
+padding:20px;
+text-align:center;
+background:#020617;
+color:#94a3b8;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="header">
+
+<h1>Sami Shariful Islam</h1>
+
+<h2>Student | Gamer | Sniper Player</h2>
+
+<a href="#about" class="btn">Explore</a>
+
+</div>
+
+<div class="section" id="about">
+
+<div class="card">
+<h3>About Me</h3>
+
+<p>
+I am Sami Shariful Islam from Bangladesh.
+Currently studying in South Korea at Kyungdong University.
+</p>
+</div>
+
+<div class="card">
+<h3>Gaming</h3>
+
+<p>
+Free Fire Player <br>
+Role: Sniper <br>
+Team: Wizard
+</p>
+</div>
+
+<div class="card">
+<h3>Skills</h3>
+
+<p>
+HTML <br>
+Gaming Strategy <br>
+Leadership
+</p>
+</div>
+
+</div>
+
+<div class="footer">
+Welcome To My Profile
+</div>
+
+</body>
+
+</html>
